@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+  background-size: cover;
+  font-family: "Cinzel Decorative", cursive;
+  color: #57493b; /* Dark brown vintage text color */
+}
+
+#logo {
+  width: 15vw; /* Adjusted logo size */
+  margin-top: 3vh; /* Adjusted logo margin */
+}
+
+h1 {
+  font-size: 70px; /* Reduced font size for vintage feel */
+  font-weight: 900; /* Increased font weight for emphasis */
+  color: #e0c682; /* Golden vintage color for headings */
+}
+
+section {
+  margin: 5vh auto; /* Reduced margin for better alignment */
+}
+
+#buttons {
+  width: 60%; /* Adjusted button section width */
+}
+
+.ball {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f4e1d2; /* Vintage cream color */
+  margin: 5px;
+  color: #57493b; /* Dark brown vintage text color */
+  line-height: 40px; /* Centering text vertically */
+  font-weight: bold;
+  font-size: 1.5em; /* Adjusted font size */
+  text-align: center;
+}
+
+.scoreboard {
+  font-size: 2.5em; /* Adjusted font size */
+  font-weight: bold;
+}
+
+.score {
+  padding: 20px;
+  height: auto;
+  border-radius: 20px;
+  margin: 0 30px; /* Adjusted margin for better alignment */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent vintage background */
+}
+
+.button {
+  width: 120px; /* Adjusted button width */
+  font-size: 1.2em; /* Adjusted font size */
+  cursor: pointer;
+  margin: 0 20px; /* Adjusted margin for better alignment */
+}
+
+#team1 {
+  display: inline-block;
+  background-color: #a38458; /* Vintage brown color */
+}
+
+#team2 {
+  display: inline-block;
+  background-color: #668e4a; /* Vintage green color */
+}
+
+#team1-superover,
+#team2-superover {
+  margin: 15px; /* Adjusted margin for better spacing */
+}
